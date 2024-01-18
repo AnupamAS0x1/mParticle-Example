@@ -1,0 +1,16 @@
+PODS:
+  - mParticle-Example (0.1.0)
+
+DEPENDENCIES:
+  - mParticle-Example (from `../`)
+
+EXTERNAL SOURCES:
+  mParticle-Example:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mParticle-Example: a11f6b47da77c520234927e1bae43d5d20dde5e3
+
+PODFILE CHECKSUM: 352f51126e45c930a14b82e35007bc9b184cdf53
+
+COCOAPODS: 1.12.1

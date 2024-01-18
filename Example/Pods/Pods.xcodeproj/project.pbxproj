@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D707D58DEF12C66926D30288D716F18 /* Pods-mParticle-Example_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 488813BEC84F969AEAC3F1955A0C0A62 /* Pods-mParticle-Example_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B4023E0847D40F076DD98176C37A7DC /* Pods-mParticle-Example_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6FE4E189EF65DD03BAAA29280B377 /* Pods-mParticle-Example_Example-dummy.m */; };
+		4A1AF819596BBE30963377499E7AD45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E515BA3214B9BEA5E26556A4E8E0D62 /* Pods-mParticle-Example_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46503FD3E6927EE70DDDC35CFBE36360 /* Pods-mParticle-Example_Tests-dummy.m */; };
+		525637500E5E4209DAD0875D22347099 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605C4AC7DC4CEC665A8D0B6998599916 /* ReplaceMe.swift */; };
+		61EC53240DEAEAC4DB018869A1A11014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		803F87D7CD3A47E4D267A48F5174BFA5 /* mParticle-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F694081148D4C418E7076525600BA5 /* mParticle-Example-dummy.m */; };
+		82A506C7F7365C1A77118BE66F47A8C7 /* Pods-mParticle-Example_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EB4D2178ADD739AC6CC24E8FAB9CBA /* Pods-mParticle-Example_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6290B2525C9FB989A4A48A27A256250 /* mParticle-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E47004A92031CA9174FCC8FEBB82536A /* mParticle-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F33FFD0AFEF157A3C74BC30A842B8FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		682AEC52A9CDD3BA57184CA5F0B4CD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82A7953D28912E0E8192957B08E95CF;
+			remoteInfo = "Pods-mParticle-Example_Example";
+		};
+		74C18AB8AF8C608F52409D81DB1BFBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70C0D4A82696CE1B22BD51D999B022D8;
+			remoteInfo = "mParticle-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F694081148D4C418E7076525600BA5 /* mParticle-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mParticle-Example-dummy.m"; sourceTree = "<group>"; };
+		1244C67FFF45A7454620A5AAF0E7A7E4 /* mParticle-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mParticle-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		16385E04806725E197A30BD34B90827F /* Pods-mParticle-Example_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mParticle-Example_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EF037491004DD3B2DBF86BA66FEA11D /* mParticle-Example.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "mParticle-Example.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		363E48939426CCA3B78CFD4A5477EA35 /* Pods-mParticle-Example_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mParticle-Example_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38803611C473C51E90B6FF4AAF5CC6DF /* Pods-mParticle-Example_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mParticle-Example_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46503FD3E6927EE70DDDC35CFBE36360 /* Pods-mParticle-Example_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mParticle-Example_Tests-dummy.m"; sourceTree = "<group>"; };
+		4816239F924799B705B2F6DE23354072 /* Pods-mParticle-Example_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mParticle-Example_Example-Info.plist"; sourceTree = "<group>"; };
+		488813BEC84F969AEAC3F1955A0C0A62 /* Pods-mParticle-Example_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mParticle-Example_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4F0A5124E757ED4D3B25EEAACC53A25D /* Pods-mParticle-Example_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mParticle-Example_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52F6DBA25C00A29ECB9D49DDA6290368 /* mParticle-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mParticle-Example-Info.plist"; sourceTree = "<group>"; };
+		605C4AC7DC4CEC665A8D0B6998599916 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "mParticle-Example/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		6C43B8441E5661B58217CD7D47EA2B6B /* mParticle-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mParticle-Example.release.xcconfig"; sourceTree = "<group>"; };
+		6EDE75B92FA47BEBF40A43668DA7293F /* Pods-mParticle-Example_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mParticle-Example_Tests.modulemap"; sourceTree = "<group>"; };
+		6F70F93790A40507217131FBB806A72B /* Pods-mParticle-Example_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mParticle-Example_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7399A03CBB1F2D0B96BC12CEB28C3ED8 /* Pods-mParticle-Example_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mParticle-Example_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8097B84EF4534A25337DF1EAB7F675C9 /* mParticle-Example-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mParticle-Example-prefix.pch"; sourceTree = "<group>"; };
+		826BD749CBE7C38507577C2064B63232 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		847CF68A8B5EC2441BB2522075ABFDCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8583F5361F13D307719A2E378FB4F325 /* Pods-mParticle-Example_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mParticle-Example_Example.modulemap"; sourceTree = "<group>"; };
+		8E259897A4340B42083151359F0F2D80 /* mParticle-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "mParticle-Example"; path = mParticle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94333BCB9AEFA7D1D5537E70EF0A6C62 /* mParticle-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "mParticle-Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC4E5CF9B9B32E7BF63A6F72673DCEE3 /* Pods-mParticle-Example_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mParticle-Example_Tests"; path = Pods_mParticle_Example_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE571FED3E2BD5E2335D9E6703FC514F /* Pods-mParticle-Example_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mParticle-Example_Tests-Info.plist"; sourceTree = "<group>"; };
+		BE04FD3A3C4E471D260203E05B7C9096 /* Pods-mParticle-Example_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mParticle-Example_Example"; path = Pods_mParticle_Example_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF477EB3132EAC5464E2AE2563B8F793 /* Pods-mParticle-Example_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mParticle-Example_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0EB4D2178ADD739AC6CC24E8FAB9CBA /* Pods-mParticle-Example_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mParticle-Example_Example-umbrella.h"; sourceTree = "<group>"; };
+		E47004A92031CA9174FCC8FEBB82536A /* mParticle-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mParticle-Example-umbrella.h"; sourceTree = "<group>"; };
+		F170FDB8369F0895D06FED4088966949 /* Pods-mParticle-Example_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mParticle-Example_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D6FE4E189EF65DD03BAAA29280B377 /* Pods-mParticle-Example_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mParticle-Example_Example-dummy.m"; sourceTree = "<group>"; };
+		FEFBE90A984CD295701250F94864790C /* Pods-mParticle-Example_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mParticle-Example_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A90D24009F2388FAD4F030774B3703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC53240DEAEAC4DB018869A1A11014 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5951C72A97DEF3AF86ECFB915B3217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33FFD0AFEF157A3C74BC30A842B8FF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB25A94FC65DEBBD9F624C375E6D499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1AF819596BBE30963377499E7AD45C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF14824668960E6BC2BBA8D3EF916E2 /* Pods-mParticle-Example_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8583F5361F13D307719A2E378FB4F325 /* Pods-mParticle-Example_Example.modulemap */,
+				FEFBE90A984CD295701250F94864790C /* Pods-mParticle-Example_Example-acknowledgements.markdown */,
+				6F70F93790A40507217131FBB806A72B /* Pods-mParticle-Example_Example-acknowledgements.plist */,
+				F7D6FE4E189EF65DD03BAAA29280B377 /* Pods-mParticle-Example_Example-dummy.m */,
+				7399A03CBB1F2D0B96BC12CEB28C3ED8 /* Pods-mParticle-Example_Example-frameworks.sh */,
+				4816239F924799B705B2F6DE23354072 /* Pods-mParticle-Example_Example-Info.plist */,
+				D0EB4D2178ADD739AC6CC24E8FAB9CBA /* Pods-mParticle-Example_Example-umbrella.h */,
+				F170FDB8369F0895D06FED4088966949 /* Pods-mParticle-Example_Example.debug.xcconfig */,
+				363E48939426CCA3B78CFD4A5477EA35 /* Pods-mParticle-Example_Example.release.xcconfig */,
+			);
+			name = "Pods-mParticle-Example_Example";
+			path = "Target Support Files/Pods-mParticle-Example_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6304C5FB3552995D37FA95F43ECE3BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E259897A4340B42083151359F0F2D80 /* mParticle-Example */,
+				BE04FD3A3C4E471D260203E05B7C9096 /* Pods-mParticle-Example_Example */,
+				AC4E5CF9B9B32E7BF63A6F72673DCEE3 /* Pods-mParticle-Example_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C9F5B5E86E3DFE09A652843D55D90A0 /* mParticle-Example */ = {
+			isa = PBXGroup;
+			children = (
+				605C4AC7DC4CEC665A8D0B6998599916 /* ReplaceMe.swift */,
+				7FDB6CEA2A68828BB94BA24FE95D407C /* Pod */,
+				F4F1078690CCD15271B9D764F8D320C9 /* Support Files */,
+			);
+			name = "mParticle-Example";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7FDB6CEA2A68828BB94BA24FE95D407C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				826BD749CBE7C38507577C2064B63232 /* LICENSE */,
+				1EF037491004DD3B2DBF86BA66FEA11D /* mParticle-Example.podspec */,
+				847CF68A8B5EC2441BB2522075ABFDCF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		80F371A321770BA518196DBF0FC6AF1A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BF14824668960E6BC2BBA8D3EF916E2 /* Pods-mParticle-Example_Example */,
+				9F41B7D3A906E4E29963875E5AE31662 /* Pods-mParticle-Example_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F41B7D3A906E4E29963875E5AE31662 /* Pods-mParticle-Example_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6EDE75B92FA47BEBF40A43668DA7293F /* Pods-mParticle-Example_Tests.modulemap */,
+				4F0A5124E757ED4D3B25EEAACC53A25D /* Pods-mParticle-Example_Tests-acknowledgements.markdown */,
+				BF477EB3132EAC5464E2AE2563B8F793 /* Pods-mParticle-Example_Tests-acknowledgements.plist */,
+				46503FD3E6927EE70DDDC35CFBE36360 /* Pods-mParticle-Example_Tests-dummy.m */,
+				AE571FED3E2BD5E2335D9E6703FC514F /* Pods-mParticle-Example_Tests-Info.plist */,
+				488813BEC84F969AEAC3F1955A0C0A62 /* Pods-mParticle-Example_Tests-umbrella.h */,
+				16385E04806725E197A30BD34B90827F /* Pods-mParticle-Example_Tests.debug.xcconfig */,
+				38803611C473C51E90B6FF4AAF5CC6DF /* Pods-mParticle-Example_Tests.release.xcconfig */,
+			);
+			name = "Pods-mParticle-Example_Tests";
+			path = "Target Support Files/Pods-mParticle-Example_Tests";
+			sourceTree = "<group>";
+		};
+		A88041906DEA0B95D12310E80BC24AF2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F5B5E86E3DFE09A652843D55D90A0 /* mParticle-Example */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A88041906DEA0B95D12310E80BC24AF2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6304C5FB3552995D37FA95F43ECE3BFD /* Products */,
+				80F371A321770BA518196DBF0FC6AF1A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F1078690CCD15271B9D764F8D320C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94333BCB9AEFA7D1D5537E70EF0A6C62 /* mParticle-Example.modulemap */,
+				01F694081148D4C418E7076525600BA5 /* mParticle-Example-dummy.m */,
+				52F6DBA25C00A29ECB9D49DDA6290368 /* mParticle-Example-Info.plist */,
+				8097B84EF4534A25337DF1EAB7F675C9 /* mParticle-Example-prefix.pch */,
+				E47004A92031CA9174FCC8FEBB82536A /* mParticle-Example-umbrella.h */,
+				1244C67FFF45A7454620A5AAF0E7A7E4 /* mParticle-Example.debug.xcconfig */,
+				6C43B8441E5661B58217CD7D47EA2B6B /* mParticle-Example.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/mParticle-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0986875AF07F03F8740B59A652751C3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D707D58DEF12C66926D30288D716F18 /* Pods-mParticle-Example_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C0C08222CBE844CA8B2714ACEFB5D7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6290B2525C9FB989A4A48A27A256250 /* mParticle-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C9F9D2D498A56DC20109A3BB0C5B39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A506C7F7365C1A77118BE66F47A8C7 /* Pods-mParticle-Example_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C6D94E7AB36FE549444464BE9246A31 /* Pods-mParticle-Example_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2798B2B7D285FBB21538A5E706E033DB /* Build configuration list for PBXNativeTarget "Pods-mParticle-Example_Tests" */;
+			buildPhases = (
+				0986875AF07F03F8740B59A652751C3B /* Headers */,
+				86A68F4141675DB71C6E89F4B32901CA /* Sources */,
+				BDB25A94FC65DEBBD9F624C375E6D499 /* Frameworks */,
+				C6D8B35EB3ED73286AF91EA1C7B3CDD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D717BE364F518F2718BBD3372F9880 /* PBXTargetDependency */,
+			);
+			name = "Pods-mParticle-Example_Tests";
+			productName = Pods_mParticle_Example_Tests;
+			productReference = AC4E5CF9B9B32E7BF63A6F72673DCEE3 /* Pods-mParticle-Example_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		70C0D4A82696CE1B22BD51D999B022D8 /* mParticle-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CE5D8DC5B62F9B1C828D266603EB5D /* Build configuration list for PBXNativeTarget "mParticle-Example" */;
+			buildPhases = (
+				0C0C08222CBE844CA8B2714ACEFB5D7E /* Headers */,
+				47F6ED1831115A89611B47649ED98562 /* Sources */,
+				AA5951C72A97DEF3AF86ECFB915B3217 /* Frameworks */,
+				2DC27B904CE1F12E866CFB0426A03AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mParticle-Example";
+			productName = mParticle_Example;
+			productReference = 8E259897A4340B42083151359F0F2D80 /* mParticle-Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A82A7953D28912E0E8192957B08E95CF /* Pods-mParticle-Example_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEC3AE882E2047B9E8B25FC80459F56 /* Build configuration list for PBXNativeTarget "Pods-mParticle-Example_Example" */;
+			buildPhases = (
+				42C9F9D2D498A56DC20109A3BB0C5B39 /* Headers */,
+				882848D4681061F5FA603E89540C15E9 /* Sources */,
+				71A90D24009F2388FAD4F030774B3703 /* Frameworks */,
+				43BC4C29001C42027423F865E3B2022E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C462A39485D273C175FD4F3F84B97B7A /* PBXTargetDependency */,
+			);
+			name = "Pods-mParticle-Example_Example";
+			productName = Pods_mParticle_Example_Example;
+			productReference = BE04FD3A3C4E471D260203E05B7C9096 /* Pods-mParticle-Example_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6304C5FB3552995D37FA95F43ECE3BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70C0D4A82696CE1B22BD51D999B022D8 /* mParticle-Example */,
+				A82A7953D28912E0E8192957B08E95CF /* Pods-mParticle-Example_Example */,
+				2C6D94E7AB36FE549444464BE9246A31 /* Pods-mParticle-Example_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC27B904CE1F12E866CFB0426A03AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BC4C29001C42027423F865E3B2022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D8B35EB3ED73286AF91EA1C7B3CDD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F6ED1831115A89611B47649ED98562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803F87D7CD3A47E4D267A48F5174BFA5 /* mParticle-Example-dummy.m in Sources */,
+				525637500E5E4209DAD0875D22347099 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A68F4141675DB71C6E89F4B32901CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E515BA3214B9BEA5E26556A4E8E0D62 /* Pods-mParticle-Example_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882848D4681061F5FA603E89540C15E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4023E0847D40F076DD98176C37A7DC /* Pods-mParticle-Example_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88D717BE364F518F2718BBD3372F9880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mParticle-Example_Example";
+			target = A82A7953D28912E0E8192957B08E95CF /* Pods-mParticle-Example_Example */;
+			targetProxy = 682AEC52A9CDD3BA57184CA5F0B4CD15 /* PBXContainerItemProxy */;
+		};
+		C462A39485D273C175FD4F3F84B97B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mParticle-Example";
+			target = 70C0D4A82696CE1B22BD51D999B022D8 /* mParticle-Example */;
+			targetProxy = 74C18AB8AF8C608F52409D81DB1BFBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FA9FF54BD963012870ABE16D92F281C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363E48939426CCA3B78CFD4A5477EA35 /* Pods-mParticle-Example_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mParticle-Example_Example/Pods-mParticle-Example_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mParticle-Example_Example/Pods-mParticle-Example_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C79DA894E1268810CA7D9050CBD1FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38803611C473C51E90B6FF4AAF5CC6DF /* Pods-mParticle-Example_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mParticle-Example_Tests/Pods-mParticle-Example_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mParticle-Example_Tests/Pods-mParticle-Example_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49AFCEDCCC64ED6C7119C7216CA699F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16385E04806725E197A30BD34B90827F /* Pods-mParticle-Example_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mParticle-Example_Tests/Pods-mParticle-Example_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mParticle-Example_Tests/Pods-mParticle-Example_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3B46EEC83919910A51621FCDA4BA7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1244C67FFF45A7454620A5AAF0E7A7E4 /* mParticle-Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mParticle-Example/mParticle-Example-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mParticle-Example/mParticle-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mParticle-Example/mParticle-Example.modulemap";
+				PRODUCT_MODULE_NAME = mParticle_Example;
+				PRODUCT_NAME = mParticle_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA662E7F2B27CD8AC1B9AB97B4E7BD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C43B8441E5661B58217CD7D47EA2B6B /* mParticle-Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mParticle-Example/mParticle-Example-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mParticle-Example/mParticle-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mParticle-Example/mParticle-Example.modulemap";
+				PRODUCT_MODULE_NAME = mParticle_Example;
+				PRODUCT_NAME = mParticle_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0BF55EFCEF4D9D3B5671FA6AEAEE9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F170FDB8369F0895D06FED4088966949 /* Pods-mParticle-Example_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mParticle-Example_Example/Pods-mParticle-Example_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mParticle-Example_Example/Pods-mParticle-Example_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CE5D8DC5B62F9B1C828D266603EB5D /* Build configuration list for PBXNativeTarget "mParticle-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B46EEC83919910A51621FCDA4BA7D6 /* Debug */,
+				EA662E7F2B27CD8AC1B9AB97B4E7BD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2798B2B7D285FBB21538A5E706E033DB /* Build configuration list for PBXNativeTarget "Pods-mParticle-Example_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AFCEDCCC64ED6C7119C7216CA699F3 /* Debug */,
+				2C79DA894E1268810CA7D9050CBD1FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEC3AE882E2047B9E8B25FC80459F56 /* Build configuration list for PBXNativeTarget "Pods-mParticle-Example_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BF55EFCEF4D9D3B5671FA6AEAEE9D5 /* Debug */,
+				1FA9FF54BD963012870ABE16D92F281C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
